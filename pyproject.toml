@@ -1,0 +1,26 @@
+[project]
+name = "lab-pytorch-v1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "SiriusRalph", email = "sarahaylin787@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+    "scikit-learn>=1.9.1",
+    "torch>=2.14.1",
+    "torcheval>=0.0.7",
+    "torchmetrics>=1.9.0",
+    "torchvision>=0.29.1",
+]
+
+[project.scripts]
+lab-pytorch-v1 = "lab_pytorch_v1:main"
+
+[build-system]
+requires = ["uv_build>=0.12.24,<0.13.0"]
+build-backend = "uv_build"
